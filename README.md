@@ -12,7 +12,7 @@ The whole documentation can be found [here](https://jwt-auth.readthedocs.io/en/d
 
 2. Run the migrations
 
-3. Add a record (email/password) to the `users` table. You can use the following script with Tinker.
+3. Add a record (email/password) to the `users` table. You can use the following script with `Laravel Tinker`.
 
 ```
 $user = \App\User();
@@ -24,7 +24,7 @@ $user->save();
 
 ## Postman Requests
 
-The `JWT Laravel API.postman_collection.json` file it's a `Postman` collection that contains all endpoints structure and examples for this repository. My setup is conformed via `Laravel Valet` and `MySQL5.7`.
+The `JWT Laravel API.postman_collection.json` file it's a `Postman` collection that contains all endpoints structure and examples for this repository. My setup is conformed by `Laravel Valet` and `MySQL5.7`.
 
 ## Credits
 
