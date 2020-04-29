@@ -1,0 +1,320 @@
+{
+	"id": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+	"name": "JWT Laravel API",
+	"description": "JWT Laravel API Workshop Requests",
+	"order": [
+		"a23ea391-9711-35b5-2635-764a63160f71",
+		"784a22d1-af62-129a-fe23-36a920ec42ab",
+		"19cf0620-b7d9-6a42-634b-ca8d2399e75f",
+		"d00b0be2-cca2-3e22-65a7-ee3636b69e07",
+		"8e2a1e7a-0748-79cd-bdac-12700d27f195",
+		"eeaace28-747b-d6fd-edd9-1a666a27568b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1588130634340,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "19cf0620-b7d9-6a42-634b-ca8d2399e75f",
+			"headers": "Content-type: application/json\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMDE5OSwiZXhwIjoxNTg4MTMzNzk5LCJuYmYiOjE1ODgxMzAxOTksImp0aSI6IjNkNVczWWZKbFdjNkFqdE0iLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.AoE-rPILHr0OXRlYUWZnY9z7IyowvaM8Nzu1OpGm4VQ\n",
+			"headerData": [
+				{
+					"key": "Content-type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMDE5OSwiZXhwIjoxNTg4MTMzNzk5LCJuYmYiOjE1ODgxMzAxOTksImp0aSI6IjNkNVczWWZKbFdjNkFqdE0iLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.AoE-rPILHr0OXRlYUWZnY9z7IyowvaM8Nzu1OpGm4VQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/logout",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMDE5OSwiZXhwIjoxNTg4MTMzNzk5LCJuYmYiOjE1ODgxMzAxOTksImp0aSI6IjNkNVczWWZKbFdjNkFqdE0iLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.AoE-rPILHr0OXRlYUWZnY9z7IyowvaM8Nzu1OpGm4VQ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://jwt.test/api/auth/logout",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1588130660277,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "784a22d1-af62-129a-fe23-36a920ec42ab",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token ",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588132619103,
+			"name": "http://jwt.test/api/auth/me",
+			"description": "",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"responses": []
+		},
+		{
+			"id": "8e2a1e7a-0748-79cd-bdac-12700d27f195",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/refresh",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588132659807,
+			"name": "http://jwt.test/api/auth/refresh",
+			"description": "",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"responses": []
+		},
+		{
+			"id": "a23ea391-9711-35b5-2635-764a63160f71",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"data": [
+				{
+					"key": "email",
+					"value": "david.e.lares@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://jwt.test/api/auth/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1588130643692,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d00b0be2-cca2-3e22-65a7-ee3636b69e07",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/refresh",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588132695878,
+			"name": "http://jwt.test/api/auth/me",
+			"description": "",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"responses": []
+		},
+		{
+			"id": "eeaace28-747b-d6fd-edd9-1a666a27568b",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwt.test/api/auth/payload",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU4ODEzMjU5NiwiZXhwIjoxNTg4MTM2MTk2LCJuYmYiOjE1ODgxMzI1OTYsImp0aSI6ImdHRnduZnJJM2ZEcHd5Q2MiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJjdXN0b20iOiJZSExRU01ETEcifQ.vDS2SlRvbH0BwG3iRL8dci59tNDkrqCnrgh82kkPNn0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588132696566,
+			"name": "http://jwt.test/api/auth/payload",
+			"description": "",
+			"collectionId": "933728a4-2225-4ec6-27e6-97f85e2ca27f",
+			"responses": []
+		}
+	]
+}
